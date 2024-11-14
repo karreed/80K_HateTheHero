@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.1726229638178027,
+    "zoomFactor": 0.6897782140104775,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -356,8 +356,8 @@
       "name": "TiledFullWall",
       "persistentUuid": "fdaef031-ac6d-44fb-a194-6acc7b9dc16b",
       "width": 724,
-      "x": 192,
-      "y": 446,
+      "x": 193,
+      "y": 432,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -390,7 +390,7 @@
       "persistentUuid": "77fb9a95-87ef-4d10-83f8-85b3d95be0f0",
       "width": 0,
       "x": 980,
-      "y": 398,
+      "y": 384,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -449,15 +449,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 15,
+      "height": 63,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "918f6db2-3238-4d3b-87ad-98c58266d189",
-      "width": 726,
-      "x": 191,
-      "y": 501,
+      "width": 723,
+      "x": 193,
+      "y": 449,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -506,7 +506,7 @@
       "persistentUuid": "e4bac2f1-d20c-4dbb-bc15-efec883691df",
       "width": 0,
       "x": 916,
-      "y": 398,
+      "y": 384,
       "zOrder": 38,
       "numberProperties": [],
       "stringProperties": [],
@@ -537,8 +537,8 @@
       "name": "Hidden_Wall",
       "persistentUuid": "8a9b59ea-8b43-4f9a-b907-46fcb549d729",
       "width": 0,
-      "x": 128,
-      "y": 398,
+      "x": 129,
+      "y": 384,
       "zOrder": 40,
       "numberProperties": [],
       "stringProperties": [],
@@ -553,9 +553,9 @@
       "layer": "",
       "name": "TiledFullWall",
       "persistentUuid": "4f791367-d72d-41e1-9f9d-80e8f1a6b241",
-      "width": 255,
-      "x": -127,
-      "y": 446,
+      "width": 258,
+      "x": -128,
+      "y": 432,
       "zOrder": 41,
       "numberProperties": [],
       "stringProperties": [],
@@ -570,8 +570,8 @@
       "name": "FullSouthwestCorner",
       "persistentUuid": "f9c38967-976f-4625-8f24-764c70e71ff4",
       "width": 0,
-      "x": -191,
-      "y": 398,
+      "x": -192,
+      "y": 384,
       "zOrder": 42,
       "numberProperties": [],
       "stringProperties": [],
@@ -588,8 +588,8 @@
       "opacity": 0,
       "persistentUuid": "2f535fd7-eafa-4c0b-b2ab-bd02ca75efc3",
       "width": 315,
-      "x": -188,
-      "y": 461,
+      "x": -191,
+      "y": 448,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -599,15 +599,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 65,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "f9a8a8d2-a2a8-4867-a029-d787a089d166",
-      "width": 14,
-      "x": -188,
-      "y": 396,
+      "width": 17,
+      "x": -190,
+      "y": 384,
       "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
@@ -624,7 +624,7 @@
       "persistentUuid": "6dc1e781-0b7a-42bc-9dbe-33b5e3e3bdf7",
       "width": 0,
       "x": 980,
-      "y": 461,
+      "y": 447,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -1133,7 +1133,7 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "WallSideMidLeft",
+      "name": "Hidden_Wall_R",
       "persistentUuid": "6ce10adc-072f-486d-8898-a5cf082349e0",
       "width": 0,
       "x": 1281,
@@ -1147,15 +1147,296 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 319,
+      "height": 320,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
       "persistentUuid": "3dbadb34-06e7-493f-8f1e-f6118f291d88",
       "width": 19,
       "x": 1325,
-      "y": 0,
+      "y": -1,
       "zOrder": 72,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 321,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledRightWall",
+      "persistentUuid": "049a3c75-b14a-4538-94d4-df26f3d159ad",
+      "width": 64,
+      "x": 1281,
+      "y": 383,
+      "zOrder": 73,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 386,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "persistentUuid": "327d342f-e39c-41ec-b8e5-bb9a6f6f6e8b",
+      "width": 20,
+      "x": 1325,
+      "y": 383,
+      "zOrder": 74,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FullSoutheastCorner",
+      "persistentUuid": "1ed7f61a-537e-4ebe-bb47-e392f544ed3c",
+      "width": 0,
+      "x": 1281,
+      "y": 704,
+      "zOrder": 75,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledFullWall",
+      "persistentUuid": "76593817-d09d-4e62-bd2f-26101e7f788f",
+      "width": 512,
+      "x": 769,
+      "y": 752,
+      "zOrder": 76,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FullSouthwestCorner",
+      "persistentUuid": "249c8c64-7881-4fb8-bbce-d1262c36a8c7",
+      "width": 0,
+      "x": 705,
+      "y": 704,
+      "zOrder": 77,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FullNorthwestCorner",
+      "persistentUuid": "6ab90e59-6f26-415f-86fe-890a3e10fd4c",
+      "width": 0,
+      "x": 705,
+      "y": 432,
+      "zOrder": 78,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 115,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledLeftWall",
+      "persistentUuid": "b8085fa1-7561-48fe-b35b-3a9cb0bb403d",
+      "width": 64,
+      "x": 705,
+      "y": 525,
+      "zOrder": 79,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Hidden_Wall_L",
+      "persistentUuid": "49095dee-8f35-474c-99c9-c63efa2d2b49",
+      "width": 0,
+      "x": 705,
+      "y": 640,
+      "zOrder": 80,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "persistentUuid": "7c838c9d-ee4a-46ae-9a8e-db795fbfb5e5",
+      "width": 19,
+      "x": 705,
+      "y": 512,
+      "zOrder": 81,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 65,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "persistentUuid": "30dbaa20-7701-447b-8750-58fc01683481",
+      "width": 19,
+      "x": 705,
+      "y": 704,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 61,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "persistentUuid": "55fd342c-0f01-4999-a297-e186dce8d5c1",
+      "width": 639,
+      "x": 705,
+      "y": 770,
+      "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "persistentUuid": "fcb6aac5-6a84-449f-9aac-cf24f996ee32",
+      "width": 254,
+      "x": 706,
+      "y": -64,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 61,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "persistentUuid": "3d54642c-4c35-4f3a-b409-2b04e649cb16",
+      "width": 319,
+      "x": 1025,
+      "y": -62,
+      "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorHole",
+      "persistentUuid": "692b3800-e887-4b43-b774-081c9d2431e9",
+      "width": 0,
+      "x": 1089,
+      "y": 640,
+      "zOrder": 86,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorHole",
+      "persistentUuid": "32d8994e-8062-4907-b832-83ac64e1915b",
+      "width": 0,
+      "x": 1025,
+      "y": 576,
+      "zOrder": 87,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorHole",
+      "persistentUuid": "6cdfdffc-3692-4abd-ae58-483529749f87",
+      "width": 0,
+      "x": 1153,
+      "y": 705,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorHole",
+      "persistentUuid": "775e3071-0cc8-4669-9aea-f1fd3c9b777c",
+      "width": 0,
+      "x": 1025,
+      "y": 513,
+      "zOrder": 88,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1170,73 +1451,6 @@
       "effects": [],
       "behaviors": [],
       "content": {}
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "3cc817a8e0bf681542500da784bfe78049866b3db3379875d4af5091faba93e5",
-      "name": "WallBrickFlat",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
-          "cost": 2,
-          "impassable": true
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Wall Brick Flat.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
@@ -1594,123 +1808,6 @@
                       {
                         "x": 12,
                         "y": 52
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "8da40d3413a7a9d7e57eb2a12735c5ef5713ac271a6eade6f8acf21ccad3f02e",
-      "name": "Objects",
-      "type": "TileMap::SimpleTileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "atlasImage": "DungeonTileset.png",
-        "rowCount": 16,
-        "columnCount": 14,
-        "tileSize": 16,
-        "tilesWithHitBox": ""
-      }
-    },
-    {
-      "assetStoreId": "8da40d3413a7a9d7e57eb2a12735c5ef5713ac271a6eade6f8acf21ccad3f02e",
-      "name": "Walls",
-      "type": "TileMap::SimpleTileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "YSort",
-          "type": "YSort::YSort"
-        }
-      ],
-      "content": {
-        "atlasImage": "DungeonTileset.png",
-        "rowCount": 16,
-        "columnCount": 14,
-        "tileSize": 16,
-        "tilesWithHitBox": ""
-      }
-    },
-    {
-      "assetStoreId": "8da40d3413a7a9d7e57eb2a12735c5ef5713ac271a6eade6f8acf21ccad3f02e",
-      "name": "Tilefloor",
-      "type": "TileMap::SimpleTileMap",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "content": {
-        "atlasImage": "DungeonTileset.png",
-        "rowCount": 16,
-        "columnCount": 14,
-        "tileSize": 16,
-        "tilesWithHitBox": ""
-      }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "3cc817a8e0bf681542500da784bfe78049866b3db3379875d4af5091faba93e5",
-      "name": "WallBrickFlat_Hidden",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
-          "cost": 2,
-          "impassable": true
-        }
-      ],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Wall Brick Flat.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 0
-                      },
-                      {
-                        "x": 64,
-                        "y": 64
-                      },
-                      {
-                        "x": 0,
-                        "y": 64
                       }
                     ]
                   ]
@@ -2786,7 +2883,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "3b98fc769369fc18f78a8e60426cb2809294ef34e700f4214ac47e4e563854a0",
-      "name": "WallSideMidLeft",
+      "name": "Hidden_Wall_R",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2847,7 +2944,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "bdbd50dd87eb45c7f04fef6fa3dee5fec3a9ce98b250134c67d622b4750e5148",
-      "name": "WallSideMidRight",
+      "name": "Hidden_Wall_L",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -2910,12 +3007,6 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "WallBrickFlat"
-      },
-      {
-        "objectName": "WallBrickFlat_Hidden"
-      },
-      {
         "objectName": "FloorSpikes"
       },
       {
@@ -2926,15 +3017,6 @@
       },
       {
         "objectName": "Goblin"
-      },
-      {
-        "objectName": "Objects"
-      },
-      {
-        "objectName": "Tilefloor"
-      },
-      {
-        "objectName": "Walls"
       },
       {
         "objectName": "TiledFlooring"
@@ -2976,13 +3058,13 @@
         "objectName": "Hidden_Wall"
       },
       {
+        "objectName": "Hidden_Wall_R"
+      },
+      {
+        "objectName": "Hidden_Wall_L"
+      },
+      {
         "objectName": "Shovel"
-      },
-      {
-        "objectName": "WallSideMidLeft"
-      },
-      {
-        "objectName": "WallSideMidRight"
       }
     ]
   },
@@ -3056,6 +3138,22 @@
           },
           "parameters": [
             "Hidden_Wall"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Hidden_Wall_R"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "Hidden_Wall_L"
           ]
         }
       ]
@@ -3373,8 +3471,197 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "ShovelCount",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Goblin",
+            "Hidden_Wall_R",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::C_Button_pressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"Cross\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Hidden_Wall_R",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "ShovelCount",
+            "=",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Goblin",
+            "Hidden_Wall_L",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Or"
+          },
+          "parameters": [],
+          "subInstructions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::C_Button_pressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"Cross\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Montre"
+          },
+          "parameters": [
+            "Hidden_Wall_L",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "Hidden_Wall_R"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Goblin",
+            "Hidden_Wall_R",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "Hidden_Wall_L"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Goblin",
+            "Hidden_Wall_L",
+            ""
+          ]
+        }
+      ]
     }
   ],
   "layers": [
