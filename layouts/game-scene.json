@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5290357402157165,
+    "zoomFactor": 0.41943397827593887,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -828,8 +828,8 @@
       "name": "FloorSpikes",
       "persistentUuid": "ccf34ef5-377f-4a2c-bf0a-8f683fd81f4e",
       "width": 0,
-      "x": 833,
-      "y": 1,
+      "x": 1410,
+      "y": 128,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -1270,14 +1270,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 115,
+      "height": 129,
       "keepRatio": true,
       "layer": "",
       "name": "TiledLeftWall",
       "persistentUuid": "b8085fa1-7561-48fe-b35b-3a9cb0bb403d",
       "width": 64,
       "x": 705,
-      "y": 525,
+      "y": 511,
       "zOrder": 79,
       "numberProperties": [],
       "stringProperties": [],
@@ -1345,8 +1345,8 @@
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "55fd342c-0f01-4999-a297-e186dce8d5c1",
-      "width": 705,
-      "x": 639,
+      "width": 959,
+      "x": 385,
       "y": 754,
       "zOrder": 83,
       "numberProperties": [],
@@ -1400,7 +1400,7 @@
       "width": 0,
       "x": 1089,
       "y": 640,
-      "zOrder": 86,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1416,7 +1416,7 @@
       "width": 0,
       "x": 1025,
       "y": 576,
-      "zOrder": 87,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1446,9 +1446,9 @@
       "name": "FloorHole",
       "persistentUuid": "775e3071-0cc8-4669-9aea-f1fd3c9b777c",
       "width": 0,
-      "x": 1025,
-      "y": 513,
-      "zOrder": 88,
+      "x": 1090,
+      "y": 448,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1472,14 +1472,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
       "keepRatio": true,
       "layer": "",
       "name": "TiledFullWall",
       "persistentUuid": "7fa1fd55-7be9-4940-8a95-fd19fa2054c1",
-      "width": 0,
-      "x": 640,
+      "width": 320,
+      "x": 385,
       "y": 752,
       "zOrder": 2,
       "numberProperties": [],
@@ -1763,8 +1764,8 @@
       "layer": "",
       "name": "TiledFullWall",
       "persistentUuid": "87be4d74-2a69-42af-9fc2-f7ff6fe48388",
-      "width": 1618,
-      "x": -125,
+      "width": 1550,
+      "x": -57,
       "y": 1009,
       "zOrder": 106,
       "numberProperties": [],
@@ -1791,15 +1792,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1152,
+      "height": 1153,
       "keepRatio": true,
       "layer": "",
       "name": "TiledLeftWall",
       "persistentUuid": "47dbeebc-8828-4141-9318-c94efac51fe0",
       "width": 64,
       "x": -465,
-      "y": -192,
-      "zOrder": 2,
+      "y": -189,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1814,7 +1815,7 @@
       "persistentUuid": "afa6ac96-50db-4b51-b5f4-6b3f27ff0f2d",
       "width": 0,
       "x": -465,
-      "y": 960,
+      "y": 961,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -1847,7 +1848,7 @@
       "width": 0,
       "x": 322,
       "y": -192,
-      "zOrder": 110,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1938,15 +1939,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 76,
+      "height": 77,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "df9c735b-c915-408c-ac32-619d22537c6d",
-      "width": 1683,
-      "x": -128,
-      "y": 1011,
+      "width": 1678,
+      "x": -122,
+      "y": 1010,
       "zOrder": 112,
       "numberProperties": [],
       "stringProperties": [],
@@ -1966,6 +1967,658 @@
       "x": 436,
       "y": -194,
       "zOrder": 113,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledFullWall",
+      "persistentUuid": "3db3c9e0-30ab-49de-9cf3-b3bd2646f7b4",
+      "width": 88,
+      "x": -401,
+      "y": 1009,
+      "zOrder": 115,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DoorFrameRight",
+      "persistentUuid": "649e1727-9ec0-4429-9f63-1662de93398d",
+      "width": 0,
+      "x": -121,
+      "y": 961,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DoorFrameLeft",
+      "persistentUuid": "eec6487e-fa8e-4631-a12d-6bb748fd7e6e",
+      "width": 0,
+      "x": -313,
+      "y": 961,
+      "zOrder": 117,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "2b86a451-0738-40d6-8b62-4b59fad48326",
+      "width": 0,
+      "x": -249,
+      "y": 961,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "DoorFrameTop",
+      "persistentUuid": "17831254-6c7f-4132-b4ab-5b47abae5d55",
+      "width": 0,
+      "x": -249,
+      "y": 949,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1204,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "96d09d4c-c337-4941-99be-aac5fcafe57c",
+      "width": 19,
+      "x": 1537,
+      "y": -194,
+      "zOrder": 120,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1204,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "3e1aba2c-ce65-499e-a304-d095396417a4",
+      "width": 19,
+      "x": -466,
+      "y": -194,
+      "zOrder": 120,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "75b2df0b-6aec-454e-93a6-72298e026db7",
+      "width": 213,
+      "x": -465,
+      "y": 1010,
+      "zOrder": 121,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorHole",
+      "persistentUuid": "0442f0ce-e997-45ce-b24c-01e4d0abaf0f",
+      "width": 0,
+      "x": 578,
+      "y": -192,
+      "zOrder": 122,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorHole",
+      "persistentUuid": "abe58647-f022-4f80-ab47-35d21de24cff",
+      "width": 0,
+      "x": 1346,
+      "y": 64,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorHole",
+      "persistentUuid": "fbde5993-5e08-43dd-9454-5641e419437a",
+      "width": 0,
+      "x": 641,
+      "y": 640,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorHole",
+      "persistentUuid": "cdbd576f-b368-48ab-b944-51778036aeeb",
+      "width": 0,
+      "x": 1475,
+      "y": 192,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FullSouthwestCorner",
+      "persistentUuid": "95b368ed-40dc-4b3f-8547-c97a0497f8e3",
+      "width": 0,
+      "x": -464,
+      "y": 579,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledFullWall",
+      "persistentUuid": "a8e09caa-a494-440a-a75d-22060c059ab8",
+      "width": 146,
+      "x": -400,
+      "y": 627,
+      "zOrder": 126,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FullSoutheastCorner",
+      "persistentUuid": "b711063e-6fad-41f5-acd5-8b89762ee444",
+      "width": 0,
+      "x": -44,
+      "y": 579,
+      "zOrder": 127,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 131,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledRightWall",
+      "persistentUuid": "552469d1-81d9-4016-9229-c614246d9aa8",
+      "width": 64,
+      "x": -44,
+      "y": 448,
+      "zOrder": 128,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Hidden_Wall",
+      "persistentUuid": "9d011196-b3a2-4770-b223-eaa1e1ed9567",
+      "width": 0,
+      "x": -254,
+      "y": 579,
+      "zOrder": 129,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledFullWall",
+      "persistentUuid": "10dad683-d66d-4fc6-ac03-cc3f59fd0415",
+      "width": 146,
+      "x": -190,
+      "y": 627,
+      "zOrder": 130,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 115,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "a7632b94-29d2-41b8-aadd-edbde979cbbd",
+      "width": 19,
+      "x": 0,
+      "y": 512,
+      "zOrder": 131,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "a1f5edaa-9655-4fa6-9591-1ae8a9cdd108",
+      "width": 192,
+      "x": -446,
+      "y": 627,
+      "zOrder": 132,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "e79062a0-a6c2-4a66-80cf-e3d0aef6d391",
+      "width": 209,
+      "x": -190,
+      "y": 627,
+      "zOrder": 133,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FullSouthwestCorner",
+      "persistentUuid": "4bc74b02-7d3b-4c80-bbaa-a623d5e8ebf6",
+      "width": 0,
+      "x": 0,
+      "y": 704,
+      "zOrder": 134,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 63,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledLeftWall",
+      "persistentUuid": "7e5fc4b0-ea11-41ba-ba38-cbd8df1c2cae",
+      "width": 64,
+      "x": 0,
+      "y": 643,
+      "zOrder": 135,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledFullWall",
+      "persistentUuid": "6813f96d-b721-42c1-aa87-0cba0b1feb25",
+      "width": 257,
+      "x": 64,
+      "y": 752,
+      "zOrder": 136,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Hidden_Wall",
+      "persistentUuid": "39363f8f-97e2-4d49-a52e-d17ee0252d57",
+      "width": 0,
+      "x": 321,
+      "y": 704,
+      "zOrder": 137,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 79,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "48d975a8-56c4-406f-b56e-691753ea8e5b",
+      "width": 320,
+      "x": 0,
+      "y": 753,
+      "zOrder": 138,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "60d4178f-81d3-494e-8035-d0b567461016",
+      "width": 20,
+      "x": 0,
+      "y": 689,
+      "zOrder": 139,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorSpikes",
+      "persistentUuid": "288f0393-9682-443c-a23f-d602eb9d7b86",
+      "width": 0,
+      "x": -381,
+      "y": 769,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledRightWall",
+      "persistentUuid": "4df0ee1b-c8f6-43c5-a11a-fd4a21daf1af",
+      "width": 64,
+      "x": 914,
+      "y": 768,
+      "zOrder": 141,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Hidden_Wall_R",
+      "persistentUuid": "23bb62f7-c324-4c67-bcaa-647fff3960f7",
+      "width": 0,
+      "x": 914,
+      "y": 896,
+      "zOrder": 142,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 49,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledRightWall",
+      "persistentUuid": "1ba8ee15-308c-4771-a7c4-8661d111afc3",
+      "width": 66,
+      "x": 914,
+      "y": 960,
+      "zOrder": 143,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "41fd7767-efcc-4420-bb71-41b90619ced5",
+      "width": 20,
+      "x": 958,
+      "y": 960,
+      "zOrder": 144,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "5ca14ea9-7601-48aa-90ad-226e30741d40",
+      "width": 20,
+      "x": 958,
+      "y": 768,
+      "zOrder": 144,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorHole",
+      "persistentUuid": "4b68b730-5c2c-4aa4-b58d-ff3bdcd683ab",
+      "width": 0,
+      "x": 706,
+      "y": 896,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorSpikes",
+      "persistentUuid": "77ea9005-3f38-4e2f-8ed0-60d50b24fbba",
+      "width": 0,
+      "x": 1282,
+      "y": 896,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorSpikes",
+      "persistentUuid": "6bcefc44-d580-422a-bddf-14a7d75baaba",
+      "width": 0,
+      "x": 1346,
+      "y": 832,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI Layer",
+      "name": "Wallcount",
+      "persistentUuid": "94d0dede-512b-49ed-8ef7-2822b61a9ce7",
+      "width": 0,
+      "x": 1113,
+      "y": 13,
+      "zOrder": 148,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI Layer",
+      "name": "Holecount",
+      "persistentUuid": "9f5f5c32-f374-4bb5-a998-a844acbf33af",
+      "width": 0,
+      "x": 1116,
+      "y": 47,
+      "zOrder": 149,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI Layer",
+      "name": "Trapcount",
+      "persistentUuid": "c87de040-57a0-47c2-9904-b0b15d2838a7",
+      "width": 0,
+      "x": 1113,
+      "y": 79,
+      "zOrder": 150,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2047,7 +2700,7 @@
             {
               "looping": true,
               "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.125,
+              "timeBetweenFrames": 0.25,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
@@ -3529,6 +4182,587 @@
       "effects": [],
       "behaviors": [],
       "content": {}
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "3e629abc8f260fb286a0ba8211d6b67d4e8c446ccd6bf1ac044b622b2757022b",
+      "name": "Door",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Closed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Closed2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Open2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "f5d2a6084c166a22d13f65247960c6e47abefb7763dde510984e947e2dfd57c2",
+      "name": "DoorWithFrame",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Door With Frame",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Door With Frame2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 146,
+                        "y": 0
+                      },
+                      {
+                        "x": 146,
+                        "y": 80
+                      },
+                      {
+                        "x": 0,
+                        "y": 80
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Open",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Door With Frame_Open.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 146,
+                        "y": 0
+                      },
+                      {
+                        "x": 146,
+                        "y": 80
+                      },
+                      {
+                        "x": 0,
+                        "y": 80
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Closed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Door With Frame_Closed.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 146,
+                        "y": 0
+                      },
+                      {
+                        "x": 146,
+                        "y": 80
+                      },
+                      {
+                        "x": 0,
+                        "y": 80
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "4d2c261fdc9e44ce2d9e98e23ce9b596ad9507614b3d88ce341750a12dd1e517",
+      "name": "DoorFrameLeft",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Door Frame Left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Door Frame Left",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 12
+                      },
+                      {
+                        "x": 64,
+                        "y": 12
+                      },
+                      {
+                        "x": 64,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "d9c52879a512974fe05f489ea99ca67d2f4d54996ff3a12064f2804890f401a8",
+      "name": "DoorFrameRight",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Door Frame Right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Door Frame Right",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 8
+                      },
+                      {
+                        "x": 64,
+                        "y": 8
+                      },
+                      {
+                        "x": 64,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "5fb3b1a59b0d119ad03c7e7aec31e3c7520c75a716ea82e2056b58e4c5d39f00",
+      "name": "DoorFrameTop",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Door Frame Top",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Door Frame Top2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 12,
+                        "y": 0
+                      },
+                      {
+                        "x": 116,
+                        "y": 0
+                      },
+                      {
+                        "x": 116,
+                        "y": 12
+                      },
+                      {
+                        "x": 12,
+                        "y": 12
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Wallcount",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Walls : ",
+      "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 24,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Walls : ",
+        "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 24,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Holecount",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Holes : ",
+      "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 24,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Holes : ",
+        "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 24,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Trapcount",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Traps : ",
+      "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 24,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Traps : ",
+        "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 24,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -3565,10 +4799,10 @@
         "objectName": "FullSoutheastCorner"
       },
       {
-        "objectName": "FullNortheastCorner"
+        "objectName": "FullNorthwestCorner"
       },
       {
-        "objectName": "FullNorthwestCorner"
+        "objectName": "FullNortheastCorner"
       },
       {
         "objectName": "collision_new"
@@ -3589,13 +4823,37 @@
         "objectName": "Hidden_Wall"
       },
       {
-        "objectName": "Hidden_Wall_R"
-      },
-      {
         "objectName": "Hidden_Wall_L"
       },
       {
+        "objectName": "Hidden_Wall_R"
+      },
+      {
         "objectName": "Shovel"
+      },
+      {
+        "objectName": "Door"
+      },
+      {
+        "objectName": "DoorWithFrame"
+      },
+      {
+        "objectName": "DoorFrameLeft"
+      },
+      {
+        "objectName": "DoorFrameRight"
+      },
+      {
+        "objectName": "DoorFrameTop"
+      },
+      {
+        "objectName": "Wallcount"
+      },
+      {
+        "objectName": "Holecount"
+      },
+      {
+        "objectName": "Trapcount"
       }
     ]
   },
@@ -3686,6 +4944,39 @@
           "parameters": [
             "Hidden_Wall_L"
           ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Wallcount",
+            "Text",
+            "=",
+            "\"Walls : \" + GlobalVariableString(Walls)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Holecount",
+            "Text",
+            "=",
+            "\"Holes : \" + GlobalVariableString(Holes)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Trapcount",
+            "Text",
+            "=",
+            "\"Traps : \" + GlobalVariableString(Traps)"
+          ]
         }
       ]
     },
@@ -3736,7 +5027,7 @@
               "parameters": [
                 "",
                 "1",
-                "\"Cross\"",
+                "\"X\"",
                 ""
               ]
             }
@@ -3769,6 +5060,27 @@
             "",
             "20",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Walls",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Wallcount",
+            "Text",
+            "=",
+            "\"Walls : \" + GlobalVariableString(Walls)"
           ]
         }
       ]
@@ -3870,7 +5182,7 @@
               "parameters": [
                 "",
                 "1",
-                "\"Cross\"",
+                "\"A\"",
                 ""
               ]
             }
@@ -3902,6 +5214,27 @@
             "",
             "30",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Holes",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Holecount",
+            "Text",
+            "=",
+            "\"Holes : \" + GlobalVariableString(Holes)"
           ]
         }
       ]
@@ -3953,18 +5286,7 @@
               "parameters": [
                 "",
                 "1",
-                "\"Cross\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Gamepads::C_Button_pressed"
-              },
-              "parameters": [
-                "",
-                "1",
-                "\"A\"",
+                "\"B\"",
                 ""
               ]
             }
@@ -3999,6 +5321,27 @@
             "",
             "20",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Traps",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Trapcount",
+            "Text",
+            "=",
+            "\"Traps : \" + GlobalVariableString(Traps)"
           ]
         }
       ]
@@ -4094,18 +5437,7 @@
               "parameters": [
                 "",
                 "1",
-                "\"Cross\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Gamepads::C_Button_pressed"
-              },
-              "parameters": [
-                "",
-                "1",
-                "\"A\"",
+                "\"X\"",
                 ""
               ]
             }
@@ -4138,6 +5470,27 @@
             "",
             "20",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Walls",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Wallcount",
+            "Text",
+            "=",
+            "\"Walls : \" + GlobalVariableString(Walls)"
           ]
         }
       ]
@@ -4189,18 +5542,7 @@
               "parameters": [
                 "",
                 "1",
-                "\"Cross\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Gamepads::C_Button_pressed"
-              },
-              "parameters": [
-                "",
-                "1",
-                "\"A\"",
+                "\"X\"",
                 ""
               ]
             }
@@ -4233,6 +5575,27 @@
             "",
             "20",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Walls",
+            "-",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Wallcount",
+            "Text",
+            "=",
+            "\"Walls : \" + GlobalVariableString(Walls)"
           ]
         }
       ]
@@ -4389,6 +5752,122 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Door",
+            "Animation",
+            "=",
+            "\"Closed\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "Goblin",
+            "Door",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "Door",
+            "Animation",
+            "=",
+            "\"Open\""
+          ]
+        },
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "Goblin",
+            "Door",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Title Scene\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Holes",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Traps",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "NumberVariable"
+          },
+          "parameters": [
+            "Walls",
+            "=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Door",
+            "Animation",
+            "=",
+            "\"Open\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
       "conditions": [],
       "actions": []
     }
@@ -4437,6 +5916,39 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "UI Layer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -4465,12 +5977,20 @@
       "type": "ScalableCapability::ScalableBehavior"
     },
     {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
       "name": "TopDownGamepadMapper",
       "type": "Gamepads::TopDownGamepadMapper"
     },
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "YSort",
+      "type": "YSort::YSort"
     }
   ]
 }

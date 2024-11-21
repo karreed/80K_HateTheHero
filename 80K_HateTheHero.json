@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 217,
+    "build": 218,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -16,7 +16,7 @@
     "pixelsRounding": false,
     "projectUuid": "af579c29-e20b-4089-bae9-ce864790a9d0",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
@@ -29,7 +29,35 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -1133,6 +1161,200 @@
         "name": "goblin1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Closed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/969a8bbc5ec12ee51b641e4a7ac318f0312abf39ef72121da06507cc17e3f5bc_Door_Closed.png",
+          "name": "Door_Closed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door_Open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door_Open.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/133dcc03f2e4b0ed976c8d7263fc8750e64727003c09878a546d937252a2ac95_Door_Open.png",
+          "name": "Door_Open.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Open.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Open",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Closed.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Closed",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door With Frame.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door With Frame.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/ebf5a6faac331368eb5d32375b50e8ee52c095a95326cc70db6e1413683036d8_Door With Frame.png",
+          "name": "Door With Frame.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door With Frame_Closed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door With Frame_Closed.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/b9627812567c6bda1c92b887facbddec9f82198cf42f9f0f41bbba4320bb49ff_Door With Frame_Closed.png",
+          "name": "Door With Frame_Closed.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door With Frame_Open.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door With Frame_Open.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/a69e54aecf30566a9a5c1ae5a3ad81c9decc94cadf81b9565913254ee92024c4_Door With Frame_Open.png",
+          "name": "Door With Frame_Open.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door With Frame2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Door With Frame",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door With Frame3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Door With Frame2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door Frame Left.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Frame Left.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/bbb8679c4399519d494a1bd2e585ec1367e9f81f55d4b7694eb9de3772a95a06_Door Frame Left.png",
+          "name": "Door Frame Left.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door Frame Right.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Frame Right.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/4b9347abf01a1a2b6e23947346536d91a9e51c848e9632350e4cf26b93c32718_Door Frame Right.png",
+          "name": "Door Frame Right.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door Frame Right2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Door Frame Right",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door Frame Left2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Door Frame Left",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Closed2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Closed2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Open2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Open2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door Frame Top.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Door Frame Top.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Door/4a3138d7545570cb01da2ac880c7c56ace6ee337f3ff0b278b1402289c470296_Door Frame Top.png",
+          "name": "Door Frame Top.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door Frame Top2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Door Frame Top",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Door Frame Top3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Door Frame Top2",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1147,6 +1369,21 @@
       "name": "ShovelCount",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Holes",
+      "type": "number",
+      "value": 18
+    },
+    {
+      "name": "Walls",
+      "type": "number",
+      "value": 13
+    },
+    {
+      "name": "Traps",
+      "type": "number",
+      "value": 9
     }
   ],
   "layouts": [
