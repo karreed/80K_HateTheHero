@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6897782140104775,
+    "zoomFactor": 0.5290357402157165,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -98,10 +98,11 @@
       "height": 3588,
       "keepRatio": true,
       "layer": "",
+      "locked": true,
       "name": "TiledFlooring",
       "persistentUuid": "f47ca007-9c86-4a64-9b78-7f3924b4e3e6",
       "width": 6400,
-      "x": -1919,
+      "x": -1918,
       "y": -1280,
       "zOrder": -1,
       "numberProperties": [],
@@ -170,7 +171,7 @@
       "persistentUuid": "1e3dab1c-d685-41b2-8221-e449df1f1bec",
       "width": 64,
       "x": 644,
-      "y": 0,
+      "y": 1,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -185,8 +186,8 @@
       "layer": "",
       "name": "TiledFullWall",
       "persistentUuid": "cd4aa158-326d-4db3-86d9-844675b4be5a",
-      "width": 326,
-      "x": 318,
+      "width": 325,
+      "x": 319,
       "y": 305,
       "zOrder": 2,
       "numberProperties": [],
@@ -261,15 +262,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 16,
+      "height": 75,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "f4fdcec7-b7e5-403b-ae72-7298871a1d46",
-      "width": 512,
-      "x": 321,
-      "y": 358,
+      "width": 514,
+      "x": 319,
+      "y": 307,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -279,16 +280,16 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 15,
+      "height": 74,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "25e1260f-cc52-4aae-99e4-768e33d5e258",
-      "width": 672,
-      "x": 18,
-      "y": -23,
-      "zOrder": 19,
+      "width": 701,
+      "x": 4,
+      "y": -76,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -319,11 +320,12 @@
       "keepRatio": true,
       "layer": "",
       "name": "collision",
+      "opacity": 0,
       "persistentUuid": "a41f6ebb-1730-4116-b2b5-5668ddcb406b",
       "width": 15,
       "x": 691,
       "y": -23,
-      "zOrder": 0,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -332,15 +334,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 17,
+      "height": 75,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "0448a01a-d549-4eec-9f84-9f8fc5eea60f",
-      "width": 250,
+      "width": 251,
       "x": 3,
-      "y": 358,
+      "y": 306,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -449,15 +451,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 63,
+      "height": 76,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "918f6db2-3238-4d3b-87ad-98c58266d189",
-      "width": 723,
-      "x": 193,
-      "y": 449,
+      "width": 722,
+      "x": 194,
+      "y": 436,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -465,16 +467,17 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 75,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "0b558ce2-75c4-4660-90b5-09a02c50689c",
-      "width": 0,
+      "width": 64,
       "x": 898,
-      "y": 319,
+      "y": 308,
       "zOrder": 35,
       "numberProperties": [],
       "stringProperties": [],
@@ -482,13 +485,14 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
       "keepRatio": true,
       "layer": "",
       "name": "Hidden_Wall",
       "persistentUuid": "c586189b-9330-4fb6-80b8-ed7d2353258f",
-      "width": 0,
+      "width": 65,
       "x": 254,
       "y": 257,
       "zOrder": 37,
@@ -537,7 +541,7 @@
       "name": "Hidden_Wall",
       "persistentUuid": "8a9b59ea-8b43-4f9a-b907-46fcb549d729",
       "width": 0,
-      "x": 129,
+      "x": 130,
       "y": 384,
       "zOrder": 40,
       "numberProperties": [],
@@ -581,15 +585,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 78,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "2f535fd7-eafa-4c0b-b2ab-bd02ca75efc3",
-      "width": 315,
+      "width": 321,
       "x": -191,
-      "y": 448,
+      "y": 434,
       "zOrder": 43,
       "numberProperties": [],
       "stringProperties": [],
@@ -615,16 +619,17 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 76,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "6dc1e781-0b7a-42bc-9dbe-33b5e3e3bdf7",
-      "width": 0,
+      "width": 64,
       "x": 980,
-      "y": 447,
+      "y": 435,
       "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
@@ -1151,6 +1156,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "collision",
+      "opacity": 0,
       "persistentUuid": "3dbadb34-06e7-493f-8f1e-f6118f291d88",
       "width": 19,
       "x": 1325,
@@ -1185,6 +1191,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "collision",
+      "opacity": 0,
       "persistentUuid": "327d342f-e39c-41ec-b8e5-bb9a6f6f6e8b",
       "width": 20,
       "x": 1325,
@@ -1205,7 +1212,7 @@
       "width": 0,
       "x": 1281,
       "y": 704,
-      "zOrder": 75,
+      "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1300,6 +1307,7 @@
       "keepRatio": true,
       "layer": "",
       "name": "collision",
+      "opacity": 0,
       "persistentUuid": "7c838c9d-ee4a-46ae-9a8e-db795fbfb5e5",
       "width": 19,
       "x": 705,
@@ -1313,10 +1321,11 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 65,
+      "height": 66,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
+      "opacity": 0,
       "persistentUuid": "30dbaa20-7701-447b-8750-58fc01683481",
       "width": 19,
       "x": 705,
@@ -1330,14 +1339,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 61,
+      "height": 77,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
+      "opacity": 0,
       "persistentUuid": "55fd342c-0f01-4999-a297-e186dce8d5c1",
-      "width": 639,
-      "x": 705,
-      "y": 770,
+      "width": 705,
+      "x": 639,
+      "y": 754,
       "zOrder": 83,
       "numberProperties": [],
       "stringProperties": [],
@@ -1347,14 +1357,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 64,
+      "height": 76,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
+      "opacity": 0,
       "persistentUuid": "fcb6aac5-6a84-449f-9aac-cf24f996ee32",
-      "width": 254,
-      "x": 706,
-      "y": -64,
+      "width": 269,
+      "x": 691,
+      "y": -76,
       "zOrder": 84,
       "numberProperties": [],
       "stringProperties": [],
@@ -1364,14 +1375,15 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 61,
+      "height": 76,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
+      "opacity": 0,
       "persistentUuid": "3d54642c-4c35-4f3a-b409-2b04e649cb16",
       "width": 319,
       "x": 1025,
-      "y": -62,
+      "y": -77,
       "zOrder": 85,
       "numberProperties": [],
       "stringProperties": [],
@@ -1437,6 +1449,523 @@
       "x": 1025,
       "y": 513,
       "zOrder": 88,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 249,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledLeftWall",
+      "persistentUuid": "04dfd7e0-15f4-4775-a799-ca98934c0bc6",
+      "width": 64,
+      "x": -192,
+      "y": 135,
+      "zOrder": 89,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledFullWall",
+      "persistentUuid": "7fa1fd55-7be9-4940-8a95-fd19fa2054c1",
+      "width": 0,
+      "x": 640,
+      "y": 752,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 247,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "ce9105b5-3951-4794-b93e-5c50a9f94efc",
+      "width": 16,
+      "x": -190,
+      "y": 137,
+      "zOrder": 91,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Hidden_Wall_L",
+      "persistentUuid": "0d0e1bc4-80e2-4848-a58b-e42b09748a6c",
+      "width": 64,
+      "x": -192,
+      "y": 73,
+      "zOrder": 92,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FullNorthwestCorner",
+      "persistentUuid": "d2d947f4-e9c6-4073-9022-6df63dd9ab76",
+      "width": 0,
+      "x": -192,
+      "y": -7,
+      "zOrder": 93,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Hidden_Wall",
+      "persistentUuid": "21e76875-d3d5-42ff-8169-1d21b430c6e1",
+      "width": 0,
+      "x": -128,
+      "y": -55,
+      "zOrder": 94,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledFullWall",
+      "persistentUuid": "c7081a60-6d1d-47e0-89aa-d11723123690",
+      "width": 65,
+      "x": -64,
+      "y": -7,
+      "zOrder": 95,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 78,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "628f6e56-b1a2-4b07-b768-e5784d873249",
+      "width": 65,
+      "x": -64,
+      "y": -6,
+      "zOrder": 96,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "233ebd1d-0d8b-482a-89af-1567f4e52262",
+      "width": 64,
+      "x": -192,
+      "y": -7,
+      "zOrder": 97,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorHole",
+      "persistentUuid": "799eb53e-ba8e-4929-af78-cedebc448f02",
+      "width": 0,
+      "x": -126,
+      "y": 64,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorSpikes",
+      "persistentUuid": "291e4333-36a4-47ab-8e81-c7d66cb19535",
+      "width": 0,
+      "x": -256,
+      "y": 128,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledFullWall",
+      "persistentUuid": "487c6d8e-bce3-4dcc-adb1-10cdaeb54099",
+      "width": 795,
+      "x": -402,
+      "y": -272,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FullNortheastCorner",
+      "persistentUuid": "41fce17b-c1bc-4907-bf34-31d026455393",
+      "width": 0,
+      "x": 392,
+      "y": -272,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 116,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledRightWall",
+      "persistentUuid": "b4dceba2-dfa3-48e1-afdd-0b2580fb0809",
+      "width": 64,
+      "x": 392,
+      "y": -192,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledFullWall",
+      "persistentUuid": "b44fd369-e7e7-4452-8835-11a3df7c431e",
+      "width": 1038,
+      "x": 456,
+      "y": -272,
+      "zOrder": 102,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FullNortheastCorner",
+      "persistentUuid": "3356fedf-dbcb-4744-ab75-32552469fb53",
+      "width": 0,
+      "x": 1493,
+      "y": -272,
+      "zOrder": 103,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1154,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledRightWall",
+      "persistentUuid": "f4f30cdc-4ddd-4fce-af46-e441eb994d89",
+      "width": 64,
+      "x": 1493,
+      "y": -193,
+      "zOrder": 104,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FullSoutheastCorner",
+      "persistentUuid": "0dc89279-23f9-42b0-b1e7-edc4b63cb6fa",
+      "width": 0,
+      "x": 1493,
+      "y": 961,
+      "zOrder": 105,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 80,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledFullWall",
+      "persistentUuid": "87be4d74-2a69-42af-9fc2-f7ff6fe48388",
+      "width": 1618,
+      "x": -125,
+      "y": 1009,
+      "zOrder": 106,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FullNorthwestCorner",
+      "persistentUuid": "f7e4c86f-b208-4247-a6a2-642ab3cf193c",
+      "width": 0,
+      "x": -465,
+      "y": -272,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1152,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TiledLeftWall",
+      "persistentUuid": "47dbeebc-8828-4141-9318-c94efac51fe0",
+      "width": 64,
+      "x": -465,
+      "y": -192,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FullSouthwestCorner",
+      "persistentUuid": "afa6ac96-50db-4b51-b5f4-6b3f27ff0f2d",
+      "width": 0,
+      "x": -465,
+      "y": 960,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorHole",
+      "persistentUuid": "51e7cbf5-765f-417c-8ab1-f57d7358a738",
+      "width": 0,
+      "x": 321,
+      "y": -128,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorSpikes",
+      "persistentUuid": "360f3214-3569-4807-848d-7d0ac670151f",
+      "width": 0,
+      "x": 322,
+      "y": -192,
+      "zOrder": 110,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorSpikes",
+      "persistentUuid": "694a05bb-c955-43e5-9c97-4fb429d5fc59",
+      "width": 0,
+      "x": -382,
+      "y": -128,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorHole",
+      "persistentUuid": "799eedab-8282-40fa-81ce-eff807508ea4",
+      "width": 0,
+      "x": -382,
+      "y": 192,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorHole",
+      "persistentUuid": "6f1838f1-1d4f-45e5-8fc4-ed1b19ece01f",
+      "width": 0,
+      "x": 66,
+      "y": 512,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "FloorHole",
+      "persistentUuid": "b4bf1d00-301c-4875-b419-6e98e4d91843",
+      "width": 0,
+      "x": 194,
+      "y": 512,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 77,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "2b493440-4b8e-4861-9333-21224ca159f5",
+      "width": 2018,
+      "x": -462,
+      "y": -271,
+      "zOrder": 111,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 76,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "df9c735b-c915-408c-ac32-619d22537c6d",
+      "width": 1683,
+      "x": -128,
+      "y": 1011,
+      "zOrder": 112,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 118,
+      "keepRatio": true,
+      "layer": "",
+      "name": "collision",
+      "opacity": 0,
+      "persistentUuid": "35dc8a30-9949-404b-a7c6-1a0bc5c797ff",
+      "width": 19,
+      "x": 436,
+      "y": -194,
+      "zOrder": 113,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1732,7 +2261,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "203023d32a1c3586a7d11caa7bd1d56d248d4814f971319493fef3a6e6b29acb",
       "name": "Goblin",
       "type": "Sprite",
@@ -1778,7 +2307,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Idle7",
+                  "image": "goblin1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1794,20 +2323,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 12
+                        "x": 96,
+                        "y": 80
                       },
                       {
-                        "x": 52,
-                        "y": 12
+                        "x": 416,
+                        "y": 80
                       },
                       {
-                        "x": 52,
-                        "y": 52
+                        "x": 416,
+                        "y": 400
                       },
                       {
-                        "x": 12,
-                        "y": 52
+                        "x": 96,
+                        "y": 400
                       }
                     ]
                   ]
@@ -1870,12 +2399,7 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "YSort",
-          "type": "YSort::YSort"
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "Full Southwest Corner",
@@ -1936,12 +2460,7 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "YSort",
-          "type": "YSort::YSort"
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "Full Southeast Corner",
@@ -3001,6 +3520,15 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "NewWall",
+      "type": "YSort::Wall",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {}
     }
   ],
   "objectsFolderStructure": {
@@ -3013,10 +3541,10 @@
         "objectName": "Floor"
       },
       {
-        "objectName": "FloorHole"
+        "objectName": "Goblin"
       },
       {
-        "objectName": "Goblin"
+        "objectName": "FloorHole"
       },
       {
         "objectName": "TiledFlooring"
@@ -3043,10 +3571,13 @@
         "objectName": "FullNorthwestCorner"
       },
       {
+        "objectName": "collision_new"
+      },
+      {
         "objectName": "collision"
       },
       {
-        "objectName": "collision_new"
+        "objectName": "NewWall"
       },
       {
         "objectName": "WallTopMid"
@@ -3195,7 +3726,7 @@
               },
               "parameters": [
                 "",
-                "e"
+                "j"
               ]
             },
             {
@@ -3225,6 +3756,18 @@
           },
           "parameters": [
             "Hidden_Wall",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "build fix.mp3",
+            "",
+            "20",
             ""
           ]
         }
@@ -3317,7 +3860,7 @@
               },
               "parameters": [
                 "",
-                "e"
+                "k"
               ]
             },
             {
@@ -3347,6 +3890,18 @@
           },
           "parameters": [
             "FloorHole"
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "shovel dirt2.mp3",
+            "",
+            "30",
+            ""
           ]
         }
       ]
@@ -3388,7 +3943,7 @@
               },
               "parameters": [
                 "",
-                "e"
+                "l"
               ]
             },
             {
@@ -3432,6 +3987,18 @@
             "Animation",
             "=",
             "\"Active\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "metal-beaten-sfx-230501.mp3",
+            "",
+            "20",
+            ""
           ]
         }
       ]
@@ -3517,7 +4084,7 @@
               },
               "parameters": [
                 "",
-                "e"
+                "j"
               ]
             },
             {
@@ -3560,6 +4127,18 @@
             "Hidden_Wall_R",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "build fix.mp3",
+            "",
+            "20",
+            ""
+          ]
         }
       ]
     },
@@ -3600,7 +4179,7 @@
               },
               "parameters": [
                 "",
-                "e"
+                "j"
               ]
             },
             {
@@ -3641,6 +4220,18 @@
           },
           "parameters": [
             "Hidden_Wall_L",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PlaySound"
+          },
+          "parameters": [
+            "",
+            "build fix.mp3",
+            "",
+            "20",
             ""
           ]
         }
@@ -3695,6 +4286,111 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "a"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateLeftKey"
+          },
+          "parameters": [
+            "Goblin",
+            "TopDownMovement"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "d"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateRightKey"
+          },
+          "parameters": [
+            "Goblin",
+            "TopDownMovement"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "s"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateDownKey"
+          },
+          "parameters": [
+            "Goblin",
+            "TopDownMovement"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "w"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TopDownMovementBehavior::SimulateUpKey"
+          },
+          "parameters": [
+            "Goblin",
+            "TopDownMovement"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -3761,10 +4457,6 @@
       "type": "OpacityCapability::OpacityBehavior"
     },
     {
-      "name": "PathfindingObstacle",
-      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
-    },
-    {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
     },
@@ -3779,10 +4471,6 @@
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
-    },
-    {
-      "name": "YSort",
-      "type": "YSort::YSort"
     }
   ]
 }

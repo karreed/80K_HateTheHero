@@ -823,6 +823,316 @@
         "name": "pixil-frame-0",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pixil-frame-0 (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixil-frame-0 (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pixil-frame-0 (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixil-frame-0 (2).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pixil-frame-0 (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixil-frame-0 (1)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pixil-frame-0 (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixil-frame-0 (3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pixil-frame-0 (4).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixil-frame-0 (4).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pixil-frame-0 (5).png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"pixil-frame-0 (5).png\",\"extension\":\".png\"}",
+        "name": "pixil-frame-0 (5).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pixil-frame-0 (1)2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pixil-frame-0 (1)2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pixil-frame-0 (3).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pixil-frame-0 (3)",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pixil-frame-0 (4).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/pixil-frame-0 (4).png\"}",
+        "name": "pixil-frame-0 (4)",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pixil-frame-0 (2).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pixil-frame-0 (2)",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/pixil-frame-0 (5).png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "pixil-frame-0 (5)",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Silkscreen-Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/ecf7f6cb89e16c44e3b5a9c8abb703ba6cbc52eb8529353125f4f5caed404144_Silkscreen-Bold.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "assets/Silkscreen-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "metal-beaten-sfx-230501.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "metal-beaten-sfx-230501.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "house-building-89157.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "house-building-89157.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "running-on-dirt-87203.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "running-on-dirt-87203.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "shovel dirt.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "shovel dirt.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "shovel dirt (1).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "shovel dirt (1).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "build fix.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "build fix.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../Downloads/build fix.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\..\\Downloads\\build fix.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "build fix2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "build fix2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "shovel dirt2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "shovel dirt2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "goblin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goblin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pixil-frame-0 (6).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pixil-frame-0 (6).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle11.png\"}",
+        "name": "Idle11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "small goblin.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "small goblin.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "goblin2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"goblin2.png\",\"extension\":\".png\"}",
+        "name": "goblin2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle13",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "goblin1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "goblin1.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -847,6 +1157,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/game-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/control-scene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/credits"
     }
   ],
   "externalEvents": [],
