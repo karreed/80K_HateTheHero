@@ -3401,6 +3401,17 @@
                 "\"Cross\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::C_Button_pressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"A\"",
+                ""
+              ]
             }
           ]
         },
@@ -3519,6 +3530,17 @@
                 "\"Cross\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::C_Button_pressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"A\"",
+                ""
+              ]
             }
           ]
         },
@@ -3589,6 +3611,17 @@
                 "",
                 "1",
                 "\"Cross\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Gamepads::C_Button_pressed"
+              },
+              "parameters": [
+                "",
+                "1",
+                "\"A\"",
                 ""
               ]
             }
