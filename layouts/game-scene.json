@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5290357402157255,
+    "zoomFactor": 0.529035740215729,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -286,8 +286,8 @@
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "25e1260f-cc52-4aae-99e4-768e33d5e258",
-      "width": 701,
-      "x": 4,
+      "width": 702,
+      "x": 3,
       "y": -76,
       "zOrder": 4,
       "numberProperties": [],
@@ -595,24 +595,6 @@
       "x": -191,
       "y": 434,
       "zOrder": 43,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 65,
-      "keepRatio": true,
-      "layer": "",
-      "name": "collision",
-      "opacity": 0,
-      "persistentUuid": "f9a8a8d2-a2a8-4867-a029-d787a089d166",
-      "width": 17,
-      "x": -190,
-      "y": 384,
-      "zOrder": 44,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1491,14 +1473,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 247,
+      "height": 297,
       "keepRatio": true,
       "layer": "",
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "ce9105b5-3951-4794-b93e-5c50a9f94efc",
-      "width": 16,
-      "x": -190,
+      "width": 17,
+      "x": -191,
       "y": 137,
       "zOrder": 91,
       "numberProperties": [],
@@ -1927,8 +1909,8 @@
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "2b493440-4b8e-4861-9333-21224ca159f5",
-      "width": 2018,
-      "x": -462,
+      "width": 2021,
+      "x": -465,
       "y": -271,
       "zOrder": 111,
       "numberProperties": [],
@@ -2080,8 +2062,8 @@
       "name": "collision",
       "opacity": 0,
       "persistentUuid": "3e1aba2c-ce65-499e-a304-d095396417a4",
-      "width": 19,
-      "x": -466,
+      "width": 18,
+      "x": -465,
       "y": -194,
       "zOrder": 120,
       "numberProperties": [],
@@ -2622,6 +2604,38 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI Layer",
+      "name": "Retry",
+      "persistentUuid": "93d63963-c12f-4a21-b9ee-fee5dcb36ac5",
+      "width": 0,
+      "x": 1124,
+      "y": 662,
+      "zOrder": 151,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI Layer",
+      "name": "Timer",
+      "persistentUuid": "80861b43-0363-4651-8275-7a206c8e18f4",
+      "width": 0,
+      "x": 12,
+      "y": 12,
+      "zOrder": 152,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -2860,7 +2874,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "Floor Hole",
@@ -2919,7 +2940,13 @@
       "name": "Goblin",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Goblin_counter",
+          "type": "number",
+          "value": 1
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -2935,14 +2962,14 @@
         {
           "name": "TopDownMovement",
           "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "acceleration": 400,
+          "acceleration": 8000,
+          "deceleration": 8000,
+          "maxSpeed": 300,
           "allowDiagonals": false,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
           "customIsometryAngle": 30,
-          "deceleration": 800,
           "ignoreDefaultControls": false,
-          "maxSpeed": 200,
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown"
@@ -2960,7 +2987,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "goblin1.png",
+                  "image": "Idle15",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3314,7 +3341,14 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -4763,6 +4797,90 @@
         "characterSize": 24,
         "color": "255;255;255"
       }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Retry",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Reset",
+      "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Reset",
+        "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 40,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Timer",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Time : 0 ",
+      "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 24,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Time : 0 ",
+        "font": "758a5ad5d3131fef02a270e9ab7ab030db457b06730add8a0b31581a76b93470_Silkscreen-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 24,
+        "color": "255;255;255"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4776,6 +4894,9 @@
       },
       {
         "objectName": "Goblin"
+      },
+      {
+        "objectName": "Timer"
       },
       {
         "objectName": "FloorHole"
@@ -4850,6 +4971,9 @@
         "objectName": "Wallcount"
       },
       {
+        "objectName": "Retry"
+      },
+      {
         "objectName": "Holecount"
       },
       {
@@ -4902,6 +5026,12 @@
           "parameters": [
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
         }
       ],
       "actions": [
@@ -4976,6 +5106,45 @@
             "Text",
             "=",
             "\"Traps : \" + GlobalVariableString(Traps)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Walls",
+            "=",
+            "13"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Holes",
+            "=",
+            "18"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "Traps",
+            "=",
+            "9"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Score\""
           ]
         }
       ]
@@ -5812,7 +5981,7 @@
           },
           "parameters": [
             "",
-            "\"Title Scene\"",
+            "\"End\"",
             ""
           ]
         }
@@ -5868,8 +6037,88 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Retry",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Game Scene\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"Score\"",
+            ">=",
+            "1"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetNumberVariable"
+          },
+          "parameters": [
+            "ScoreCount",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Score\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+          },
+          "parameters": [
+            "Timer",
+            "Text",
+            "=",
+            "\"Time : \" + GlobalVariableString(ScoreCount)"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -5967,6 +6216,10 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "PathfindingObstacle",
+      "type": "PathfindingBehavior::PathfindingObstacleBehavior"
     },
     {
       "name": "Resizable",
