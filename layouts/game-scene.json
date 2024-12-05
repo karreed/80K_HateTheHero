@@ -5174,6 +5174,15 @@
         },
         {
           "type": {
+            "inverted": true,
+            "value": "Visible"
+          },
+          "parameters": [
+            "Hidden_Wall"
+          ]
+        },
+        {
+          "type": {
             "value": "CollisionNP"
           },
           "parameters": [
@@ -5186,30 +5195,11 @@
         },
         {
           "type": {
-            "value": "BuiltinCommonInstructions::Or"
+            "value": "KeyPressed"
           },
-          "parameters": [],
-          "subInstructions": [
-            {
-              "type": {
-                "value": "KeyPressed"
-              },
-              "parameters": [
-                "",
-                "j"
-              ]
-            },
-            {
-              "type": {
-                "value": "Gamepads::C_Button_pressed"
-              },
-              "parameters": [
-                "",
-                "1",
-                "\"X\"",
-                ""
-              ]
-            }
+          "parameters": [
+            "",
+            "j"
           ]
         },
         {
@@ -5369,6 +5359,14 @@
         },
         {
           "type": {
+            "value": "Visible"
+          },
+          "parameters": [
+            "FloorHole"
+          ]
+        },
+        {
+          "type": {
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
@@ -5469,6 +5467,17 @@
                 ""
               ]
             }
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "FloorSpikes",
+            "Animation",
+            "=",
+            "\"Inactive\""
           ]
         },
         {
@@ -5624,6 +5633,15 @@
         },
         {
           "type": {
+            "inverted": true,
+            "value": "Visible"
+          },
+          "parameters": [
+            "Hidden_Wall_R"
+          ]
+        },
+        {
+          "type": {
             "value": "BuiltinCommonInstructions::Once"
           },
           "parameters": []
@@ -5725,6 +5743,15 @@
                 ""
               ]
             }
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "Visible"
+          },
+          "parameters": [
+            "Hidden_Wall_L"
           ]
         },
         {
